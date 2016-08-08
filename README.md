@@ -27,19 +27,9 @@ A simple way to understand what all the different attributes of a property means
 
 ## List of Property Attributes
 
-*	atomic //default
-*	nonatomic
-*	strong=retain //default
-*	weak
-*	retain
-*	assign //default
-*	unsafe_unretained
-*	copy
-*	readonly
-*	readwrite //default
-
 ## atomic
- 
+
+*	Default 
 *	Atomic means only one thread access the variable(static type).
 *	Atomic is thread safe.
 *	but it is slow in performance
@@ -87,6 +77,7 @@ If the property "name" was nonatomic, then all threads in above example - A,B, C
 
 ## strong
 
+*	Default 
 *	it says "keep this in the heap until I don't point to it anymore"
 *	in other words " I'am the owner, you cannot dealloc this before aim fine with that same as retain"
 *	You use strong only if you need to retain the object.
@@ -148,6 +139,7 @@ The only time you would want to use weak, is if you wanted to avoid retain cycle
 
 ## assign 
 
+*	Default 
 *	assign is the default and simply performs a variable assignment
 *	assign is a property attribute that tells the compiler how to synthesize the property's setter implementation
 *	I would use assign for C primitive properties and weak for weak references to Objective-C objects.
@@ -208,6 +200,7 @@ The only time you would want to use weak, is if you wanted to avoid retain cycle
 
 ## readwrite 
 
+*	Default 
 *	setter and getter generated.
 *	Indicates that the property should be treated as read/write.
 *	This attribute is the default.
