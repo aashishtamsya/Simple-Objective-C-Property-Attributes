@@ -9,28 +9,16 @@ A simple way to understand what all the different attributes of a property means
 # Contents
 
 -	[List of Property Attributes](#list-of-property-attributes)
--	[atomic](#atomic)
-	-	[Example of atomic attribute](#example-of-atomic-attribute)
--	[nonatomic](#nonatomic)
-	-	[Example of nonatomic attribute](#example-of-nonatomic-attribute)
-	-	[Explaination of nonatomic attribute](#explaination-of-nonatomic-attribute)
--	[strong](#strong)
-	-	[Example of strong attribute](#example-of-strong-attribute)
--	[weak](#weak)
-	-	[Example of weak attribute](#example-of-weak-attribute)
-	-	[Explaination of weak attribute](#explaination-of-weak-attribute)
--	[retain = strong](#retain-=-strong)
-	-	[Example of retain attribute](#example-of-retain-attribute)
--	[assign](#assign)
-	-	[Example of assign attribute](#example-of-assign-attribute)
--	[unsafe_unretained](#unsafe_unretained)
-	-	[Example of unsafe_unretained attribute](#example-of-unsafe_unretained-attribute)
--	[copy](#copy)
-	-	[Example of copy attribute](#example-of-copy-attribute)
--	[readonly](#readonly)
-	-	[Example of readonly attribute](#example-of-readonly-attribute)
--	[readwrite](#readwrite)
-	-	[Example of readwrite attribute](#example-of-readwrite-attribute)		
+	-	[atomic](#atomic)
+	-	[nonatomic](#nonatomic)
+	-	[strong](#strong)
+	-	[weak](#weak)
+	-	[retain = strong](#retain-=-strong)
+	-	[assign](#assign)
+	-	[unsafe_unretained](#unsafe_unretained)
+	-	[copy](#copy)
+	-	[readonly](#readonly)
+	-	[readwrite](#readwrite)
 -	[Installation](#installation)
 -	[Contribution](#contribution)
 -	[Credits](#credits)
@@ -259,6 +247,6 @@ aashish.tamsya@gmail.com
 
 ## License
 
-The content of [*Weather App*](https://github.com/aashishtamsya/Weather-App) itself is licensed under the [Creative Commons Attribution 3.0 license](https://creativecommons.org/licenses/by/3.0/us/deed.en_US), and the underlying source code used to format and display that content is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php).
+The content of [*Simple Objective-C Property Attributes*](https://github.com/aashishtamsya/Simple-Objective-C-Property-Attributes) itself is licensed under the [Creative Commons Attribution 3.0 license](https://creativecommons.org/licenses/by/3.0/us/deed.en_US), and the underlying source code used to format and display that content is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php).
 
 See the [LICENSE](LICENSE.md) file for more info.
